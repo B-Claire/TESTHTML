@@ -1,0 +1,81 @@
+ <!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+  <head>
+  <title>Site Musique</title>
+   <link rel="stylesheet" href="SiteStyle.css">
+    <link rel="stylesheet" href="gout-musicStyle.css">
+  </head>
+  <body>
+
+  <header><!--Entête-->  
+  <h1 id= "titre">Site Musique</h1>
+
+  <nav id=topnav ><!--début de la navigation-->
+  <ul><!--début de la liste non ordonnée-->
+    <li id="onglet1" class= "onglets"><a href="site.html">Accueil</a></li>
+    <li class= "onglets"><a href="#img">Image </a></li>
+    <li class= "onglets"><a href="#header">Haut de Page</a></li>
+    <li class= "onglets"><a href="#footer">Bas de page </a></li>
+    <li class= "onglets"><a href="diru-html/DIR-EN-GREY.html" >Dir en Grey Biographie</a></li>
+    <li style="float:right"><a class="active" href="#about">A propos</a></li>
+
+  </ul><!--fin de la liste non ordonnée-->
+  </nav><!--fin de la navigation-->
+
+  </header>
+
+  <form action="/action_page.php">
+<!-- ******************************-->
+  <fieldset>
+    <legend>Sondage gouts musicaux::</legend>
+
+    <audio controls>
+       <source src="01. anima.flac" type="audio/flac">   
+    </audio>
+
+ 
+      <label>Prénom/Pseudo:</label><br> <!--case prénom-->
+      <input type="text" name="prénom" pattern="[A-Za-z]{15}"><br>
+  
+
+    <label>adresse mail:</label><br><!--case email-->
+    <input type="text" name="nom"pattern="[A-Za-z]{15}"><br>
+	
+    <label>Quel style de musique aimez vous ?</label><br>
+    <input type="radio" name="metal" value="metal" > metal<br><!-- choix à cocher forme ronds-->
+    <input type="radio" name="rock" value="rock"> rock<br>
+ 	  <input type="radio" name="pop" value="pop"> pop<br>
+    <input type="radio" name="new wave" value="new wave" > new wave<br>
+    <input type="radio" name="Punk" value="Punk"> Punk<br>
+    <input type="radio" name="Rnb" value="Rnb"> Rnb<br>
+    <input type="radio" name="rap" value="rap"> rap<br>
+	  <input type="radio" name="blues" value="blues" > blues<br>
+    <input type="radio" name="classique" value="classique"> classique<br>
+	  <input type="radio" name="Folk" value="Folk" > Folk<br>
+    <input type="radio" name="autre" value="autre" > autre<br>
+	  <input type="text"  name="text-autre" ><br><!--case saisie de texte pour choix autre-->
+	  <label>Quel sous genre aimez vous?</label><br>
+	  <input type="text"><!--case saisie de texte-->
+	
+	<p><!--paragraphe-->
+ <input type="submit" value="Envoyer" /><!--bouton pour valider-->
+ <input type="reset" value="Annuler" />
+ </p>
+
+ <pre id="log"> </pre> <!--contiendra les données produites par le formulaire -->
+</form><!--Fin Formulaire-->
+
+
+  <section> 
+
+  
+  </section>
+
+</fieldset>
+  <footer id="footer">
+  <p>Posted by: Claire </p>
+  <p>Contact information: <a href="mailto:someone@example.com">
+  someone@example.com</a>.</p>
+</footer>
+
