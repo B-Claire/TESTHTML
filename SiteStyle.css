@@ -100,13 +100,15 @@ aside{
 	display: inline-block;
     vertical-align: top;
     font-size: 18px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 
 section{
 	
     max-width:50%;
-	height: 1000px;
+	height: auto;
     margin-right: 1%;
 	margin-top: 10px;
     display: inline-block;
@@ -117,6 +119,13 @@ section{
     border-color:  #C23D10;/*couleur bordure*/
     padding: 10px;
     font-size: 18px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+iframe{
+    max-width: 98%;
+    width= auto; height=auto; 
 }
 
 #aside2 {
@@ -131,7 +140,11 @@ section{
 
     display: inline-block;
     vertical-align: top;
-    font-size: 14px;
+    font-size: 18px;
+    font-size-adjust: ;
+    text-align: justify;
+    text-justify: inter-word;
+
 }
 
 
@@ -140,6 +153,8 @@ body {
 	color:#FAEBD7;
     font-size: 16px;
     align-content: center;
+    text-align: justify;
+    text-justify: inter-word;
 
 }
 
@@ -160,8 +175,22 @@ img {
     border-radius: 50%;
 }
 
+#imgaside2{
+
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+
+#dadaroma{
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+
+}
+
 p {
     font-size: 14px;
+    text-align: justify;
+    text-justify: inter-word;
     
 }
 
