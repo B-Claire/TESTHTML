@@ -4,26 +4,44 @@
   <head>
   <title>Site Musique</title>
    <link rel="stylesheet" href="SiteStyle.css">
-  </head>
-  <body>
 
-  <header>  
-  <h1 id= titre>Site Musique</h1>
-
-  <nav >
+   <nav id="navbar" >
   <ul>
-    <li id="onglet1" class= "onglets"><a href="site.html">Accueil</a></li>
-    <li class= "onglets"><a href="gout-music.html">Sondage Gouts-musicaux</a></li>
-    <li class= "onglets"><a href="Stylemusicauxsourceimados.html">liste des styles musicaux </a></li>
-    <li class= "onglets"><a href="diru-html/DIR-EN-GREY.html" >Dir en Grey Biographie</a></li>
-    <li class= "onglets"><a href="#header">Haut de Page</a></li>
-    <li class= "onglets"><a href="#footer">Bas de page</a></li>
-    <li style="float:right"><a class="active" href="#about">A Propos</a></li>
+    <li ><a href="javascript:void(0)"href="site.html">Accueil</a></li>
+    <li ><a href="gout-music.html">Sondage Gouts-musicaux</a></li>
+    <li ><a href="Stylemusicauxsourceimados.html">liste des styles musicaux </a></li>
+    <li ><a href="diru-html/DIR-EN-GREY.html" >Dir en Grey Biographie</a></li>
+    <li ><a href="#header">Haut de Page</a></li>
+    <li ><a href="#footer">Bas de page</a></li>
+    <li ><a class="active" href="#about">A Propos</a></li>
 <!--<https://apricusfashion.my/product/berat-logam-tengkorak-liar-naga-api-violent-t-shirt-m/-->
   </ul>
   </nav>
 
-  </header>
+  </head>
+  <body>
+
+  <header>  
+  <h1 id= "titre">Site Musique</h1>
+
+  
+</header>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+  
 
    <aside >
   Sukekiyo: Anima<br>
@@ -43,7 +61,7 @@
 
   </aside>
 
-<section ><!--Début de Section--->
+<section class="content"><!--Début de Section--->
 <img id="imgheavy"src="image/Heavy-Metalban.jpg" >
 
   <div><br> Le Heavy metal est un genre dérivé du rock apparu au Royaume-Uni et aux États-Unis à la fin des années 1960. Cependant, le terme de « heavy metal » est sujet à confusion car il peut prendre plusieurs sens différents selon le contexte dans lequel il est employé. Dans son contexte d'origine, il était indifféremment utilisé comme un synonyme de hard rock. Dans un second sens, le terme désigne le heavy metal traditionnel, une tendance esthétique plus radicale qui, au cours des années 1970 et 1980, s’est démarquée du hard rock, en s’éloignant de ses racines blues, même si cette distinction est contestée par des recherches récentes. Dans un sens large et généralisé, le heavy metal ou metal (tout court) désigne toutes les musiques qui descendent du heavy metal traditionnel et du hard rock.<br><br>
